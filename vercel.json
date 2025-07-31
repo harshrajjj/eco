@@ -7,13 +7,5 @@
     "app/api/**/*.ts": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "HUGGINGFACE_API_KEY": "@huggingface_api_key"
-  },
-  "build": {
-    "env": {
-      "HUGGINGFACE_API_KEY": "@huggingface_api_key"
-    }
   }
 }
