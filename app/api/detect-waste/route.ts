@@ -409,6 +409,15 @@ async function detectWasteWithCLIP(base64Image: string) {
   }
 }
 
+// Test GET handler
+export async function GET() {
+  return NextResponse.json({
+    success: true,
+    message: "Waste Detection API is working!",
+    timestamp: new Date().toISOString()
+  })
+}
+
 // Main API handler
 export async function POST(request: NextRequest) {
   try {
